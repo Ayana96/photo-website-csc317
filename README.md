@@ -7,6 +7,7 @@ A photo management website that allows the user to create account, post images, 
 * MySQL database (stores users account info, posts, comments)
 * JavaScript
 * HTML/CSS for front-end
+* Node.js for server and front-end
 
 # Build/Run Instructions
 
