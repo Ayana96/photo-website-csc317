@@ -1,0 +1,68 @@
+.login_text{          
+    width: 300px;
+    border: none;
+    box-shadow: 0px 0px 20px #FF0000; 
+    margin: auto;                         
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #282828;
+    font-size: 25px;
+}
+
+.name{
+    font-size: 17px;
+}
+.regis{
+    display: flex;
+    justify-content:center;
+    font-size: large;
+}
+.login{                                 
+    width: 400px;
+    border: 1px solid transparent;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 3px 3px 3px #FF0000;
+    background-color: #282828;
+}
+
+input[type=txt]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    text-align: left;
+    background-color: #23272A;
+    box-shadow: 3px 3px 3px #FF0000;
+    outline-style: none;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    text-align: left;
+    background-color: #23272A;
+    box-shadow: 3px 3px 3px #FF0000;
+    outline-style: none;
+}
+.button{
+    border-color: #FF0000;
+    background-color:#FF0000;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    min-width: 150px;
+    text-align: center;
+    top: 50%;
+    left: 25%;
+    position: relative;
+}
+input, select, textarea{
+    color: white;
+}
+.link{
+    color: #FF0000;
+}

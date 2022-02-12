@@ -1,0 +1,53 @@
+.postImg{                                
+    width: 350px;
+    border: 2px solid transparent;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 3px 3px 3px #FF0000;
+    background-color: #282828;
+}
+.post-image-text{
+    width: 300px;
+    border: none;
+    box-shadow: 0px 0px 20px #FF0000; 
+    margin: auto;                         
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #282828;
+    font-size: 25px;
+}
+input[type=file]::file-selector-button{
+    border-color: #FF0000;
+    background-color:#FF0000;
+    color: white;
+}
+#descr{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    text-align: left;
+    background-color: #23272A;
+    box-shadow: 3px 3px 3px #FF0000;
+    outline-style: none;
+}
+.button1{
+    border-color: #FF0000;
+    background-color:#FF0000;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    min-width: 150px;
+    text-align: center;
+    position: absolute;
+}
+.button2{
+    border-color: #FF0000;
+    background-color:#FF0000;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    min-width: 150px;
+    text-align: center;
+}
