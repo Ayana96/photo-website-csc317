@@ -1,0 +1,14 @@
+<nav id="banner">
+    {{#if logged}}
+    <a id="logout" class="log">Log Out</a>
+    {{else}}
+    <a href="/login" class="log">Log in</a>
+    {{/if}}
+    <a href="/postimage" class="post">Post</a>
+    <a href="/" class="home_page">Home</a>
+    <div class="search">
+        <input id="search-text" class="search-text" type="text" placeholder="Search...">
+
+        <button id="search-button" type="submit">Submit</button>
+    </div>
+</nav>

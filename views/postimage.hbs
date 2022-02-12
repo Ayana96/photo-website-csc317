@@ -1,0 +1,27 @@
+<br></br>
+<p class="post-image-text">Post Images</p>
+<br>
+<div class="postImg">
+    <form id="post-image" class="grid" method="POST" action="/post/createPost" enctype="multipart/form-data">
+        <label for="title" class="name">Title:</label>
+        <input type="txt" name="titl" id="titl" placeholder="title" required />
+        <br />
+
+        <label for="description" class="name_desc">Description:</label>
+        <textarea type="txt" name="descr" id="descr" placeholder="description" rows="6" cols="38" required></textarea>
+        <br />
+
+        <label for="image" class="name">Upload your Image:</label>
+        <input type="file" name="img" id="img" placeholder="image" required />
+        <br /><br />
+
+        <input type="checkbox" required />
+        <label>Accept
+            <a class="link" href="https://www.youtube.com/watch?v=DLzxrzFCyOs"> Acceptable Use Policy</a>
+        </label>
+        <br /><br />
+
+        <button type="reset" class="button2">Reset</button>
+        <button type="submit" class="button1" >Submit</button>
+    </form>
+</div>
