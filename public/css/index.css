@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-image: url(https://i.imgur.com/J2fFNGb.png); /*https://i.imgur.com/CtPh7j5.jpeg*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+#flash-message {
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,0);
+}
+
+#flash-message div {
+    text-align: center;
+    background-color: white;
+}
+.home_page {
+    background-color: #23272A;
+    color: white;
+    width: 200px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#banner{
+    border: none;
+    box-shadow: 0px 0px 20px #FF0000;
+    margin: auto;
+    overflow: hidden;
+    background-color: #2C2F33;
+}
+.log {
+    color: white;
+    float: right;
+    width: 200px;
+    background-color: #2C2F33;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.post {
+    color: white;
+    float: right;
+    width: 100px;
+    background-color: #2C2F33;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search-text{
+    color: black;
+}
+.search {
+    width: auto;
+    text-align: center;
+}
+
+.search button {
+    float: center;
+    padding: 6px 10px;
+    background-color:#FF0000;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search button:hover {
+    background: #ccc;
+}
+footer {
+    background-color: #2C2F33;
+    box-shadow: 0px 0px 20px white;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: white;
+    font-size: 14px;
+    margin: center;
+}
+.phone{
+    color: white;
+    font-size: 14px;
+    margin: center;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
