@@ -1,7 +1,5 @@
 # Photo Website
 
-A photo management website that allows the user to create account, post images, and leave comments.
-
 ## Information
 
 * MySQL database (stores users account info, posts, comments)
